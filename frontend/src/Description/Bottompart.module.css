@@ -1,0 +1,61 @@
+.banner{
+    margin-top:20px;
+    padding: 15px 0 15px 0;
+    border-radius: 5px;
+    background-color: black;
+    color: white;
+}
+
+.banner:hover{
+    background-color: white;
+    color: black;
+    border:3px solid black; 
+
+}
+
+.container{
+   height:500px;
+   margin-top:60px;
+   display:flex;
+   justify-content: space-around;
+}
+
+.commondiv{
+    width:300px;
+    height:400px;
+    /* border: 3px solid black; */
+    border-radius: 5px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.commondiv:hover{
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+.commondiv img{
+    width:80%;
+    height:60%;
+    margin-top: 10px;
+  
+}
+.commondiv h5{
+    font-weight: bolder;
+    font-size: 16px;
+    padding-top: 20px;
+}
+.pricediv{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.pricediv p{
+    font-size: 20px;
+    margin-bottom: 5px;
+}
+
+.pitag{
+    text-decoration: line-through;
+    margin-right:20px;
+
+}

@@ -1,0 +1,291 @@
+
+.main_page{
+    padding: 2rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto;
+    width: 100%;
+    /* gap: 20; */
+}
+.left{
+    width: 80%;
+margin: auto;
+    padding: 2rem;
+}
+
+.right{
+    background-color: #fafafa;
+    width: 100%;
+} 
+
+.trace>ul{
+    display: flex;
+    list-style: none;
+    font-size: 1.5rem;
+    font-weight: 400;
+    color: gray;
+    cursor: pointer;
+}
+.trace>ul>li:hover{
+    color: black;
+}
+/* hr decoration start */
+.container {
+    max-width: 50%;  
+    margin: 40px auto;
+
+  }
+  
+  .hr-text {
+    line-height: 1em;
+    position: relative;
+    outline: 0;
+    border: 0;
+    color: black;
+    text-align: center;
+    height: 1.5em;
+    opacity: 1;
+  }
+  .hr-text::before{
+    content: '';
+    background: linear-gradient(to right, transparent, #818078, transparent);
+    position: absolute;
+    left: 0;
+    top: 50%;
+    width: 100%;
+    height: 1px;
+  }
+  .hr-text::after{
+    content: attr(data-content);
+    position: relative;
+    display: inline-block;
+    color: black;
+
+    padding: 0 .5em;
+    line-height: 1.5em;
+    color: #818078;
+    background-color: #fcfcfa;
+  }
+/* hr decoration end */
+.login_flex{
+    display: flex;
+    justify-content: space-between;
+    letter-spacing: .1rem;
+    
+}
+
+.login_flex>.contact{
+    font-size: 1.5rem;
+}
+.login_flex>div>.login{
+    cursor: pointer;
+    color: rgb(118, 118, 211);
+}
+
+.name_flex{
+    display: flex;
+    justify-content: space-between;
+    gap: 1rem;
+}
+.drop>ul{
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    gap: 1rem;
+}
+.radio_btn{
+   
+   width: 1rem;
+   height: 1rem;
+}
+.sippingbtn_flex{
+    display: flex;
+    justify-content: space-between;
+}
+.contact_info>div>input{
+   
+    width: 100%;
+    padding: 2rem .5rem .5rem .5rem;
+    font-size: 1.5rem;
+}
+.contact_info>div{
+    position: relative;
+}
+.contact_info>div>.email{
+position: absolute;
+top: 1.5rem;
+left: .5rem;
+font-size: 1.5rem;
+}
+.input_val{
+    position: relative;
+}
+.input_val>input{
+    width: 100%;
+    padding: 2rem .5rem .5rem .5rem;
+    font-size: 1.5rem;
+}
+.input_val>label{
+    position: absolute;
+    top: 1.5rem;
+    left: .5rem;
+    font-size: 1.5rem;
+}
+
+.input_val>.mobile{
+    position: absolute;
+    top: .4rem;
+    left: .5rem;
+    font-size: 1.5rem;
+}
+.shipping_form>.name_flex>div>input{
+  width: 100%;
+}
+.drop>ul>li>select{
+    width: 100%;
+    padding: 2rem .5rem .5rem .5rem;
+    font-size: 1.2rem;
+}
+.drop>ul>li{
+    
+    width: 100%;
+   top: 1.5rem;
+   left: .5rem;
+   
+}
+.drop>ul>li>.country
+{
+    position: absolute;
+   top: 1.5rem;
+   left: 2.8rem;
+}
+.drop>ul>li>.state{
+    position: absolute;
+    top: 1.5rem;
+    left: 16rem;
+}
+.drop>ul>li>.zip{
+    font-size: 1.5rem;
+    width: 80%;
+    padding: 2rem .4rem .4rem .1rem;
+}
+.drop>ul>li>.zip_label{
+   position: absolute;
+   top: 1.5rem;
+    padding-left: 1rem;
+}
+/* .express>fieldset>ul>li{
+    display: inline-block;
+  
+} */
+.expres>fieldset>ul{
+    display: flex;
+    justify-content: space-between;
+    /* background-color: red; */
+    list-style: none;
+}
+.shipping_btn{
+    margin: 1rem;
+    font-size: 1.5rem;
+}
+.shipping_btn>button{
+    font-size: 1.5rem;
+    padding: .5rem;
+    background-color: black;
+    color: white;
+    cursor: pointer;
+}
+.coupon_input{
+    position: relative;
+    width: 60%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+
+}
+.coupon_input>div>input{
+    width: 100%;
+    font-size: 1rem;
+    padding: 2rem .4rem .4rem .1rem;
+    border-radius: .5rem;
+}
+.coupon_input>div>label{
+    position: absolute;
+    top: 1.3rem;
+    left: .3rem;
+    font-size: 1.2rem;
+}
+.coupon_input>.btn{
+    width: 20%;
+    padding: 1.2rem;
+    border-radius: .5rem;
+}
+.coupon_input>.btn>.coupon_btn{
+background-color: black;
+font-size: 1.5rem;
+color: white;
+text-align: center;
+padding: 1rem;
+border-radius: .5rem;
+cursor: pointer;
+
+}
+.cart_detail{
+    width: 80%;
+    margin: auto;
+}
+.details>div{
+    display: flex;
+    justify-content: space-between;
+    font-size: 1.2rem;
+}
+.total_pay{
+display: flex;
+justify-content: space-between;
+font-size: 1.5rem;
+font-weight: 600;
+}
+
+/* Payment page */
+
+.addres{
+    border: 1px solid gray;
+    margin-bottom: 1rem;
+    padding: 1.5rem;
+    
+}
+.addres>div>span{
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+.payment{
+    border: 1px solid gray;
+    margin-bottom: 1rem;
+    padding: 1rem;
+   font-size: 1.3rem;
+   letter-spacing: .1rem;
+   font-weight: 400;
+   color: #0c32f3ef;
+}
+.payment>form>div>input{
+    width: 95%;
+    font-size: 1.5rem;
+    padding: .3rem;
+    margin: .5rem;
+}
+.security{
+    display: flex;
+    justify-content: space-between;
+    padding: .3rem;
+    margin: .5rem;
+    
+}
+.security>div>span>input{
+    font-size: 1.5rem;
+    border-radius: .2rem;
+}
+.security>div>input{
+    font-size: 1.5rem;
+    width: 60%;
+
+}

@@ -1,0 +1,44 @@
+.upperdiv{
+    width:80%;
+    text-align: left;
+    border-bottom: 1px solid silver;
+}
+
+.upperdiv h2{
+    font-size: 22px;
+    font-weight: bolder;
+    padding: 20px 0 10px 0;
+}
+
+.upperdiv h5{
+   font-size: 14px;
+   font-weight: bold;
+   padding-top: 0;
+   padding-bottom: 50px;
+   margin-top: 0;
+}
+
+
+.upperdiv h1{
+    padding-top: 20px;
+    font-size: 30px;
+    font-weight: bolder;
+    padding-top: 0;
+}
+
+.pdiv{
+    display: flex;
+    margin-top:20px;
+}
+
+
+.ptag{
+    text-decoration: line-through;
+    margin-right: 30px;
+
+}
+
+.upperdiv p{
+    font-size: 20px;
+    margin-bottom: 5px;
+}

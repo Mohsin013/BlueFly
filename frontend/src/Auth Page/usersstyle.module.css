@@ -1,0 +1,83 @@
+#signupSection > h1 {
+  text-align: center;
+  font-size: 38px;
+  text-transform: uppercase;
+  font-weight: 400;
+  letter-spacing: 0em;
+  line-height: 1;
+ 
+ 
+}
+#signupSection {
+  margin-top: 100px;
+ 
+}
+
+#formSection {
+  width: 31%;
+  margin: auto;
+  text-align: left;
+}
+
+#formSection > div > label {
+  display: block;
+  text-transform: uppercase;
+  font-size: 12px;
+  letter-spacing: 0;
+  margin-bottom: 10px;
+}
+#formSection > div > input {
+  width: 100%;
+  margin-bottom: 10px;
+  padding: 12px 10px;
+  border: 1px solid #e8e8e1;
+  box-sizing: border-box;
+}
+
+#formSection > div > small {
+  color: red;
+  margin-bottom: 5px;
+  display: block;
+}
+
+#subscribe {
+  margin-bottom: 25px;
+  padding-left: 20px;
+}
+#subscribe > * {
+  display: inline-block;
+}
+#subscribe > #offers {
+  width: auto;
+  margin-right: 10px;
+}
+
+#createbtn > input {
+  background: #111111;
+  color: white;
+  font-size: 13px;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  line-height: 1.42;
+  border: 1px solid transparent;
+  font-weight: 700;
+  padding: 11px 20px;
+}
+
+#createbtn > input:hover {
+  background-color: #1d1d1d;
+}
+
+/* login style starts here */
+
+#forget {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+
+#createlink {
+  text-align: center;
+  margin-top: -5px;
+  cursor: pointer;
+}
