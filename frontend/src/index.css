@@ -1,0 +1,51 @@
+body {
+  font-family: "Futura";
+  letter-spacing: 0.025em;
+  line-height: 1.6;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.carousel-indicators {
+  display: none;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Tiemann";
+  text-transform: uppercase;
+}
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+@font-face {
+  font-family: Futura;
+  src: url(./fonts/futura\ medium\ bt.ttf) format("opentype");
+}
+@font-face {
+  font-family: Tiemann;
+  src: url(./fonts/Tiemann_Light.ttf) format("opentype");
+}
+/* width */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: white;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: rgb(184, 184, 184);
+  border-radius: 25px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}

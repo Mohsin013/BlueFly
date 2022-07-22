@@ -1,0 +1,226 @@
+.bannerh1 {
+  font-size: 70px;
+}
+.bannerp {
+  font-size: 150%;
+}
+.topcaption {
+  font-size: 25px;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  font-weight: lighter;
+}
+.BlackSlider {
+  margin-top: 100px;
+  color: black;
+}
+.blackdiv {
+  margin-top: 20px;
+  background-color: black;
+  height: 40px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 50px;
+}
+.blackdiv > div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  font-size: 13px;
+}
+.blackdiv > div > div > a {
+  display: none;
+}
+.bannerGrid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  width: 95%;
+  margin: 30px auto;
+  gap: 30px;
+  height: 500px;
+}
+.bannerGrid > div {
+  display: block;
+  color: white;
+  overflow-x: hidden;
+  overflow-y: auto;
+}
+.bannerGrid > div > div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 80%;
+  margin: auto;
+  font-weight: bolder;
+}
+.bannerGrid > div > div > p {
+  font-size: 20px;
+  font-weight: bolder;
+}
+.bannerGrid > div > div > h1 {
+  font-weight: bolder;
+}
+/*.bannerGrid1 {
+  background-image: url(./banner\ grid/sliderBottom/1.jpg);
+}
+.bannerGrid2 {
+  background-image: url(./banner\ grid/sliderBottom/2.jpg);
+}
+.bannerGrid3 {
+  background-image: url(./banner\ grid/sliderBottom/3.jpg);
+} */
+
+.bannerGrid > div > img {
+  filter: brightness(70%);
+}
+.upperbold {
+  text-transform: uppercase;
+  letter-spacing: 3px;
+}
+.ShopCat {
+  margin-bottom: 80px;
+}
+.ShopCat > h1 {
+  color: black;
+  font-size: 2.0425em;
+  margin: 30px;
+  margin-top: 60px;
+}
+.ShopCatdiv {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 30px;
+  margin: auto;
+  width: 95%;
+}
+.ShopCatdiv > div {
+  text-transform: uppercase;
+  letter-spacing: 4px;
+  display: block;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.ShopCatdiv > div > div {
+  height: 220px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.ShopCatdiv > div > div > img {
+  transition: transform 1.3s;
+  height: auto;
+  width: 80%;
+}
+.ShopCatdiv > div > p {
+  margin-top: 10px;
+  margin-bottom: 0px;
+}
+.ShopCatdiv > div > div > img:hover {
+  transform: scale(1.07);
+}
+.whitebutton {
+  border: 1px solid rgb(224, 224, 224);
+  background-color: white;
+  padding: 5px 23px;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  font-size: 12px;
+  margin-bottom: 30px;
+}
+.NewArrived {
+  margin-bottom: 80px;
+}
+.NewArrived > h1 {
+  color: black;
+  font-size: 2.0425em;
+  margin: 30px;
+  margin-top: 60px;
+}
+.NewArriveddiv {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 30px;
+  margin: auto;
+  width: 95%;
+}
+.NewArriveddiv > div {
+  display: block;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.NewArriveddiv > div > div {
+  height: 220px;
+  display: flex;
+  gap: 7px;
+  font-size: 15px;
+  align-items: center;
+}
+.prices {
+  height: auto !important;
+}
+.NewArriveddiv > div > div > img {
+  transition: transform 1.3s;
+  height: 100%;
+  /* width: 80%; */
+}
+.NewArriveddiv > div > p {
+  margin-top: 10px;
+  margin-bottom: 0px;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+}
+.stikethrough {
+  text-decoration: line-through;
+}
+.red {
+  color: red;
+}
+.blackbotton {
+  background-color: black;
+  color: white;
+  letter-spacing: 3px;
+  font-size: 15px;
+  text-transform: uppercase;
+  padding: 8px 20px;
+  margin: 30px;
+  border: none;
+}
+.BottomOffer {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  margin: auto;
+  width: 95%;
+  height: auto;
+  gap: 30px;
+  color: black;
+}
+.BottomOffer > div > div {
+  height: 300px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin-bottom: 20px;
+}
+.jeans {
+  background-image: url(../../public/images/bottomgrid/1.jpg);
+}
+.girl {
+  background-image: url(../../public/images/bottomgrid/2.jpg);
+}
+.mobile {
+  background-image: url(../../public/images/bottomgrid/3.jpg);
+}
+.BlackSlidermargin > p {
+  margin-top: 15px;
+}
+/* .main{
+  margin-top: 100px;
+} */

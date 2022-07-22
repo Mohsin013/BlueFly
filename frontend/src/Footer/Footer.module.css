@@ -1,0 +1,98 @@
+
+.container{
+  /* border:1px solid red; */
+  background-color:rgb(230,230,230);
+}
+.upperdiv{
+  /* border:1px solid green; */
+  display: flex;
+  text-align:left;
+
+}
+.upperdiv h2{
+  margin-bottom: 20px;
+}
+.maindiv{
+  /* border:1px solid yellow; */
+  margin:60px 120px 20px 140px;
+}
+
+
+.about{
+  display:flex;
+}
+
+.about a{
+  text-decoration: none;
+  color: black;
+  padding:10px 0;
+  font-size:18px;
+  font-weight:lighter
+}
+.right{
+  display: flex;
+  flex-direction: column;
+  margin-right: 120px;
+}
+
+.left{
+  display:flex;
+  flex-direction: column;
+}
+.sign{
+  margin:60px 0 20px 20px;
+  /* border: 1px solid blue; */
+}
+
+.save p{
+  padding: 10px 0 0 0;
+  font-size:18px;
+  font-weight: lighter;
+}
+
+.save input{
+  padding:10px 100px 10px 10px;
+  font-size:16px;
+  border:2px solid black;
+  margin:5px 0 3px 0;
+}
+
+.save button{
+  border:0;
+  background-color:black;
+  color:white;
+  padding: 15px 135px;
+  margin: 20px 0;
+  font-size:18px
+}
+
+.save button:hover{
+  background-color: white;
+  color:black;
+  border:3px solid black
+}
+
+.icon{
+  /* border: 1px solid purple; */
+  width:140px;
+  display: flex;
+  justify-content: space-around;
+  margin-top:10px;
+}
+
+.lowerdiv{
+  margin-top:40px ;
+  /* border:1px solid green; */
+  text-align: center;
+  padding-bottom: 60px;
+}
+
+.lowerdiv img{
+  /* border:1px solid green; */
+  width:400px;
+}
+
+.lowerdiv p{
+  font-size:16px;
+  padding-top: 15px;
+}
