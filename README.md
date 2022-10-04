@@ -30,3 +30,11 @@ See more details about item
 A collaborative project built by a team of 5 executed in 7 days..
 
 LIVE DEMO:  https://famous-caramel-42646b.netlify.app/
+
+## Some of the screenshots are below:-
+
+![Max](./Images/home.png)
+
+![Max](./Images/login.png)
+
+![Max](./Images/shopping.png)
