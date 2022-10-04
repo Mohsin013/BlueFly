@@ -33,8 +33,8 @@ LIVE DEMO:  https://famous-caramel-42646b.netlify.app/
 
 ## Some of the screenshots are below:-
 
-![Max](./Images/home.png)
+![bluefly](./Images/home.png)
 
-![Max](./Images/login.png)
+![bluefly](./Images/login.png)
 
-![Max](./Images/shopping.png)
+![bluefly](./Images/shopping.png)
